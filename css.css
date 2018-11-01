@@ -1,0 +1,106 @@
+*{box-sizing: border-box;}
+body {padding: 0; margin: 0; font-family: 'Clear Sans', arial;}
+.wrap {width: 86%; margin: 0 auto; position: relative;}
+a {color: #000;}
+header {padding: 17px 0 0 0; background:#F7F7F7;}
+.space-between {display:flex; flex-wrap: wrap; justify-content: space-between;}
+#headb1 {display: inline-block; width: 29%; min-width: 19% vertical-align: top; }
+#headb1 span {display: block; text-align: center; margin-bottom: 11px; font-size: 16px; line-height: 19px;}
+#headb2 {display: inline-block; vertical-align: top;}
+#headb2>div{display: inline-block;}
+#headb21 {margin-top: 8px;}
+#headb21 span{display: inline-block; font-size: 14px; line-height: 14px; vertical-align:top;}
+#headb21 span a {color: #000;}
+#headb21 img {margin-right: 7px;}
+#headb211 {margin-right: 40px;}
+.contacts {text-align: right; margin-top: 22px;}
+.contacts a {text-decoration: none; }
+.contacts span {display: inline-block; font-size: 17px; 
+line-height:19px; vertical-align: top;}
+.imgmar {margin: 0 6px 0 15px;}
+.button {display: inline-block; width: 20px; height: 20px;
+background: url(images/arrow.png) no-repeat; margin: 5px 0 0 6px;}
+#shopping-cart {display: inline-block; vertical-align: top; 
+margin: 16px 14px 0 10px; position: relative;}
+#shopping-cart:before {content:"3"; width: 30px; height: 30px; background:#1AB0CE; position: absolute; top: -5px; right: -14px; color: #fff; text-align: center; border-radius: 50%; line-height: 27px;}
+#navigation {display:flex; flex-wrap: wrap; justify-content: space-between;}
+#navigation nav a {display: inline-block; text-decoration: none; 
+font-size: 16px; line-height: 19px; font-weight: bold; 
+padding: 17px 28px; border-top: 1px solid #F7F7F7; position: relative;}
+#navigation nav a:hover {color: #1AB0CE; border-top: 1px solid #1AB0CE;}
+#navigation nav a:after {content:""; width: 1px; height: 13px; 
+position: absolute; right: 0; top: 20px; background:#E8EDF2;}
+#search {padding-top: 17px; position: relative;}
+#search form {display: inline-block; vertical-align: top;}
+#search a {display: inline-block; margin-left: 5px;}
+#telephones {display: none; position: absolute; width: 219px; background: rgba(255, 255, 255, 0.9); z-index: 2; right:67px; top:11px; list-style: none; margin: 0; padding: 31px 0 19px 29px;}
+#telephones li {margin-bottom: 13px;}
+#telephones span {display: inline-block; margin:0 0 0 11px; vertical-align:top; line-height: 26px;}
+#telephones:before {content:""; height:0; width: 0; border: 10px solid transparent; border-bottom: 10px solid rgba(255, 255, 255, 0.9); position: absolute; top: -20px; right: 10px; z-index: auto; border-shadow: 1px;}
+
+#poly {background: url(images/Rectangle.jpg) no-repeat 50% 0 / 100% auto; background-size: cover; position: relative; height: 351px; padding-top: 80px;}
+#poly h1 {color: #fff; font-size:355%; text-align:center; margin:0 0 0 11px;}
+#poly hr {display: block; margin:0 auto; height: 2px; width: 120px;}
+#poly p {text-align:center; color: #fff; font-size: 24px; line-height: 15px;}
+#poly a {display: block; width: 200px; height: 48px; background: #1AB0CE; font-size: 16px; padding: 12px 0 0 42px; margin: 0 auto; color: #fff; text-decoration: none; font-weight:bold; letter-spacing: 1px; border-radius: 2px;}
+
+#perezvon {position: absolute; height: 108px; width:108px; background:#1AB0CE; font-size: 14px; border-radius: 50%; color: #fff; font-weight: bold; padding-top: 12px; text-align:center; right: -5%; top:219px; cursor: pointer;}
+#perezvon img, span {display: block; margin: 5px auto;}
+
+#products h2 {text-align: center;}
+#products img, #products div {display: inline-block; vertical-align: top;}
+#products img {margin-right: 38px;}
+#products ul {list-style: none;}
+#boxes { display: flex; flex-wrap: wrap; justify-content: space-between; padding:0;}
+.boxes{border: 1px solid #DCE1E6; width: 31%; min-width: 360px; height: 291px; padding: 25px 20px 0 29px;}
+#products div ul{padding: 0;}
+#products div p {margin-top: 0;}
+#products div a {text-decoration: none; font-size: 14px;}
+#products div li {margin-bottom: 15px;}
+.columns {columns: 2;}
+
+#allaboutus h2 {font-size: 36px; text-align: center; margin: 32px 0 0 0;}
+#allaboutus h3 {text-align: center; font-size: 24px; margin: 13px 0 34px 0}
+#allaboutus p {font-size: 14px;}
+
+#line2 {border: none; color: #E8EDF2; background-color: #E8EDF2; height: 1px; margin-top: 30px; }
+
+#news {font-size: 36px; text-align: center;}
+#news h2 {font-size: 36px; margin-top: 20px;}
+#news ul {list-style: none; padding: 0; margin:0; display: flex; flex-wrap: wrap; justify-content: space-between;}
+#news a {text-decoration: none;}
+#news ul li {width:33%; padding: 30px 0; border-top: 1px solid #fff; cursor: pointer;}
+#news li:hover {border-top: 1px solid #1AB0CE; box-shadow: 0 5px 23px -8px;}
+#news li:hover p {color:#1AB0CE; text-decoration:underline;}
+#news span {display: inline-block; margin: 0 auto; font-size: 14px; color: #BEC7D1;}
+#news p {text-align: center; font-size: 16px;}
+#look {display: block; margin: 57px auto; border: 1px solid #1AB0CE; text-align:center; width: 190px; color:#1AB0CE; font-size: 14px; padding: 7px 0; }
+
+footer{background:#F7F7F7; font-size: 14px; padding: 20px 0 0 0; position: relative;}
+footer .wrap {display: flex; justify-content: space-between;}
+#footb2 {width: 25%}
+#footb2 p:first-child {margin-bottom: 24px;}
+#footb3 {list-style: none; padding:0; columns: 2;}
+#footb3 li {margin-bottom: 21px;}
+#footb3 li:first-child {margin-right: 100px;}
+#footb4 {text-align: right;}
+.cont{display: block; margin-top: 23px;}
+#footb4 p {margin-top: 20px; font-size: 11px; text-transform:uppercase; vertical-align: top; font-family:'Cuprum', arial;}
+
+#perezvon2 {position: absolute; height: 108px; width:108px; background:#1AB0CE; font-size: 14px; border-radius: 50%; color: #fff; font-weight: bold; padding-top: 12px; text-align:center; right: 0; top: -31%; cursor: pointer;}
+#perezvon2 img, span {display: block; margin: 5px auto;}
+
+@media screen and (max-width: 1000px) {
+#headb1 {display: none;}
+#search {display: none;}
+#navigation {margin: 0 auto;}
+#footb2 {display: none;}
+#footb3 {display: none;}
+#perezvon2 {display: none;}
+#footb3 li {margin-bottom: 5px;}
+#navigation nav a {font-size: 12px;}
+#shopping-cart {display: none;}
+#poly {padding-top: 30px;}
+#perezvon {bottom: -40%}
+.boxes {margin: 0 auto; margin-bottom: 30px;}
+}
